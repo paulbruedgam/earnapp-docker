@@ -1,4 +1,4 @@
-FROM trixie:bullseye-slim
+FROM debian:trixie-slim
 
 LABEL org.opencontainers.image.authors "Paul Brüdgam"
 LABEL org.opencontainers.image.description "Multi-Arch Docker-Image for https://earnapp.com/"
