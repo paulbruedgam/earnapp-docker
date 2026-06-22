@@ -18,5 +18,5 @@ case "${OS_ARCH}" in
     "aarch64"|"arm64") file="earnapp-aarch64-${VERSION}";;
     *)  echo "${OS_ARCH} not supported"; exit 1;;
 esac
-wget -qc "https://cdn.brightdata.com/static/${file}" -O /usr/bin/earnapp
+wget -qc "https://cdn-earnapp.b-cdn.net/static/${file}" -O /usr/bin/earnapp
 chmod +x /usr/bin/earnapp
